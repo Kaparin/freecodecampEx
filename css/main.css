@@ -1,10 +1,30 @@
 h1, h2, p {
   text-align: center;
-}
 
+}
+h1, h2 {
+  font-family: Impact, sans-serif;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 30px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+.address {
+  margin-bottom: 5px;
+}
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
+  padding: 20px;
 }
 
 .menu {
@@ -26,4 +46,28 @@ body {
 
 .item p {
   display: inline-block;
+  margin: 5px 0;
+  font-size: 18px;
+}
+.established {
+  font-style: italic;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+/*FOOTER*/
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: grey;
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: white;
 }
