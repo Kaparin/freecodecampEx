@@ -9,12 +9,15 @@ h1  {
 }
 .one {
   background-color:rgb(255, 255, 0);
+  box-shadow: 5px 5px red;
 }
 .two {
   background-color: rgb(0, 255, 255);
+  box-shadow: 5px 5px 5px green;
 }
 .three {
   background-color: rgb(255, 0, 255);
+  box-shadow: 0 0 0 5px blue;
 }
 .container {
   background-color: rgb(0, 0, 0);
@@ -25,7 +28,7 @@ h1  {
   height: 25px;
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 0.5;
- border-left: 10px double black;
+ border-left: 10px double rgba(0, 0, 0, 75%);
 
 }
 .cap  {
